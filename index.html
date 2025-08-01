@@ -3,57 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>prime patology</title>
+    <title>Prime Pathology</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #e0f7fa; /* Light Blue Background */
-            color: #000000; /* Set text color to black */
+            background-color: #ffffff;
+            color: #4A148C;
             text-align: left;
         }
         h1 {
-            color: #00bcd4; /* Light Blue color */
-            font-size: 5rem; /* Increased font size */
+            color: #7B1FA2;
+            font-size: 5rem;
             text-align: center;
             margin-top: 30px;
         }
         h2, h3 {
-            color: #00bcd4; /* Light Blue color */
-            font-size: 5rem; /* Increased font size */
+            color: #6A1B9A;
+            font-size: 3.5rem;
         }
         p {
-            font-size: 2rem; /* Increased font size */
-            line-height: 2;
+            font-size: 2rem;
+            line-height: 1.8;
             margin: 20px;
         }
         a {
-            color: #ffffff; /* White text */
+            color: #ffffff;
             text-decoration: none;
-            font-size: 3rem; /* Increased font size */
+            font-size: 2.5rem;
             margin: 20px;
             display: block;
             text-align: left;
             width: fit-content;
-            padding: 15px 30px; /* Adjusted padding for button appearance */
-            border-radius: 10px; /* Rounded corners */
-            background-color: #00bcd4; /* Light blue background */
+            padding: 15px 30px;
+            border-radius: 10px;
+            background-color: #7B1FA2;
             transition: background-color 0.3s, transform 0.3s;
         }
         a:hover {
-            background-color: #0097a7; /* Darker blue on hover */
-            transform: scale(1.05); /* Slight grow effect on hover */
+            background-color: #6A1B9A;
+            transform: scale(1.05);
         }
         .hidden {
             display: none;
         }
         .back-button {
-            color: #00bcd4; /* Light Blue color */
+            color: #7B1FA2;
             cursor: pointer;
             display: inline-block;
             margin: 20px;
-            font-size: 2.5rem; /* Increased font size */
+            font-size: 2.5rem;
         }
         #home {
             padding: 60px;
@@ -62,15 +62,15 @@
         .section {
             padding: 30px;
             margin: 40px;
-            background-color: rgba(240, 240, 240, 0.9);
+            background-color: rgba(245, 245, 255, 0.95);
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
         .custom-box {
             margin: 40px auto;
             padding: 20px;
-            background-color: #ffffff; /* White background */
-            border: 2px solid #00bcd4; /* Light blue border */
+            background-color: #f3e5f5;
+            border: 2px solid #7B1FA2;
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             width: 80%;
@@ -94,136 +94,40 @@
 </head>
 <body>
     <div id="home">
-        <h1>Welcome to prime-pathology.</h1>
-        <p>We are a small game development studio, located in Israel. We design and produce games that bring joy, satisfaction and pleasure. Check out our titles below and feel free to contact us!</p>
+        <h1>Welcome to Prime Pathology</h1>
+        <p>We’re an independent mobile game studio based in Israel. We specialize in crafting simple yet addictive games that anyone can enjoy, anytime and anywhere. Our mission is to deliver fast, fun experiences right at your fingertips.</p>
         <a href="#" onclick="showSection('about')">About Us</a>
-        <a href="#" onclick="showSection('privacy')">Privacy</a>
+        <a href="#" onclick="showSection('privacy')">Privacy Policy</a>
         <a href="#" onclick="showSection('terms')">Terms of Use</a>
 
         <div class="custom-box">
-            For any questions, please contact us by this email: basolmuhammad354@gmail.com
-
-
-
-
-
-
-
-
+            Got a question or feedback?<br>
+            Contact us: <strong>primepathologystudio@gmail.com</strong>
         </div>
     </div>
 
     <div id="about" class="section hidden">
         <span class="back-button" onclick="goBack()">&larr; Back</span>
         <h2>About Us</h2>
-        <h3>How it began:</h3>
-        <p>We are a dynamic game development company dedicated to crafting innovative and engaging hyper-casual games. Our primary focus is on designing simple, intuitive, and addictive gaming experiences that appeal to a wide audience. Hyper-casual games are known for their minimalistic design, easy-to-learn mechanics, and high replay value, making them ideal for players seeking quick entertainment.
-
-Our mission is to deliver games that captivate players with seamless gameplay, vibrant visuals, and rewarding progression systems. Whether it’s a short break or an extended gaming session, our titles are designed to provide endless fun and satisfaction. We continuously explore new ideas, trends, and technologies to ensure our games stand out in the competitive mobile gaming market.
-
-Our team is passionate about pushing the boundaries of creativity and simplicity, ensuring that every game we produce is not only entertaining but also memorable.</p>
-        <p>Contact us: <a href="mailto:basolmuhammad354@gmail.com">basolmuhammad354@gmail.com</a></p>
+        <h3>Who We Are</h3>
+        <p>Prime Pathology is a game development team focused on hyper-casual entertainment. We love creating experiences that are quick to learn, fun to play, and hard to put down. Whether it’s a five-minute break or a late-night gaming binge, our titles are designed to fit your schedule and deliver smiles every time.</p>
+        <p>Driven by creativity, minimalism, and innovation, we’re on a mission to make the next big tap-to-play hit.</p>
+        <p>Contact: <a href="mailto:primepathologystudio@gmail.com">primepathologystudio@gmail.com</a></p>
     </div>
 
     <div id="privacy" class="section hidden">
         <span class="back-button" onclick="goBack()">&larr; Back</span>
         <h2>Privacy Policy</h2>
-        <p>Privacy Policy
-Kristy Casual Games built this app as an Ad Supported app. This SERVICE is provided by Kristy Casual Games at no cost and is intended for use as is.
-
-This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
-
-If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.
-
-The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions unless otherwise defined in this Privacy Policy.
-
-Information Collection and Use
-For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way.
-
-The app does use third-party services that may collect information used to identify you.
-
-Link to the privacy policy of third-party service providers used by the app:
-
-Google Play Services
-Unity
-Log Data
-I want to inform you that whenever you use my Service, in a case of an error in the app, I collect data and information (through third-party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol ("IP") address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.
-
-Cookies
-Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
-
-This Service does not use these "cookies" explicitly. However, the app may use third-party code and libraries that use "cookies" to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
-
-Service Providers
-I may employ third-party companies and individuals due to the following reasons:
-
-To facilitate our Service;
-To provide the Service on our behalf;
-To perform Service-related services; or
-To assist us in analyzing how our Service is used.
-I want to inform users of this Service that these third parties have access to their Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
-
-Security
-I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.
-
-Links to Other Sites
-This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
-
-Children's Privacy
-These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13 years of age. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do the necessary actions.
-
-Changes to This Privacy Policy
-I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page.
-
-This policy is effective as of 2024-06-05.
-
-Contact Us
-If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at basolmuhammad354@gmail.com</p>
+        <p>This app is built and maintained by Prime Pathology as an ad-supported experience. We don’t collect any personal information ourselves, but third-party services (like Unity and Google Play Services) may collect anonymized data to improve the app's performance and ads.</p>
+        <p>We don’t store personal data, and we respect your privacy. For full details on how third parties may collect information, please review their respective privacy policies.</p>
     </div>
 
     <div id="terms" class="section hidden">
         <span class="back-button" onclick="goBack()">&larr; Back</span>
         <h2>Terms of Use</h2>
-        <p>Terms & Conditions
-Terms and Conditions
-
-By downloading or using the app, these terms will automatically apply to you. You should make sure, therefore, that you read them carefully before using the app. You are not allowed to copy, modify, or alter the app, any part of the app, or our trademarks in any way. You are not allowed to attempt to extract the source code of the app, nor should you try to translate the app into other languages or make derivative versions. The app itself, and all trademarks, copyrights, database rights, and other intellectual property rights related to it, still belong to Service.
-
-We reserve the right to suspend accounts if we suspect suspicious activity. We take our Terms of Service very seriously, and violating it could result in revoked access, account deletion, or removal of your content. The use of a VPN (Virtual Private Network) service while using the app is not permitted.
-
-Service is committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make changes to the app or to charge for its services at any time and for any reason. We will never charge you for the app or its services without making it very clear to you what you are paying for.
-
-The app stores and processes personal data that you provide to us in order to deliver our Service. It is your responsibility to keep your phone and access to the app secure. We strongly recommend that you do not jailbreak or root your phone, as this process removes software restrictions and limitations imposed by the official operating system of your device. Doing so may make your phone vulnerable to malware/viruses/malicious programs, compromise your phone’s security features, and may prevent the app from working properly or at all.
-
-Usage Responsibility
-Certain functions of the app will require an active internet connection. The connection can be Wi-Fi or provided by your mobile network provider. Service cannot take responsibility if the app does not work fully due to a lack of access to Wi-Fi or insufficient mobile data.
-
-If you use the app outside of Wi-Fi coverage, your mobile network provider’s terms of agreement will still apply. As a result, you may incur data charges or other third-party fees, including roaming charges, if you use the app outside of your home region or country without turning off data roaming. If you are not the bill payer for the device on which you are using the app, it is assumed you have permission from the bill payer to use the app.
-
-Similarly, Service cannot accept responsibility for issues caused by the way you use the app. For example, it is your responsibility to ensure your device stays charged. If it runs out of battery and you cannot use the Service, Service will not be held accountable.
-
-Service endeavors to keep the app updated and functional. However, updates may rely on third-party information. Service is not liable for any direct or indirect loss you may experience as a result of relying on the app's functionality or information.
-
-Updates and Termination
-At some point, we may wish to update the app. The app is currently available on Android, and the requirements for using the app may change. You will need to download updates to continue using the app. Service does not guarantee that it will always support your device’s version of Android or continue providing updates.
-
-We may also stop providing the app at any time without notice. Upon termination, the rights and licenses granted to you in these terms will end, and you must stop using the app and delete it from your device if necessary.
-
-Disclaimers
-As Is: The app and all materials and content available through the app are provided “as is” and on an “as available” basis, without any warranties or conditions, express or implied. To the maximum extent permitted by applicable law, Service disclaims all warranties, including implied warranties of merchantability, fitness for a particular purpose, title, and non-infringement. Service does not guarantee uninterrupted functionality, freedom from errors, or security of the app.
-No Responsibility: You assume all risks related to your use of the app. Service is not responsible for any damage to your device, loss of data, or harm resulting from using the app or downloading its content. These limitations apply to the fullest extent permitted by applicable law.
-Changes to These Terms and Conditions
-We may update these Terms and Conditions periodically. You are encouraged to review this page for updates. Changes will take effect immediately after they are posted on this page.
-
-Contact Us
-If you have any questions or suggestions about our Terms and Conditions, do not hesitate to contact us.</p>
+        <p>By downloading or using our app, you agree to these terms. You may not copy, modify, or distribute any part of the app. Any misuse, including cheating or tampering, can result in revoked access.</p>
+        <p>This app is intended for casual entertainment. It requires internet connectivity for full functionality. Users are responsible for data usage, device security, and app updates.</p>
+        <p>We reserve the right to modify or remove access to the app at any time without notice.</p>
     </div>
 </body>
 </html>
-
-
-
-
-
-
-
